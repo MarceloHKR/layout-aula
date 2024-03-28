@@ -7,7 +7,7 @@ from kivy.uix.button import Button
 #alterar a cor do background
 from kivy.core.window import Window
 
-Window.clearcolor = (1, 1, 1, 1)
+Window.clearcolor = (28/255, 40/255, 51/255, 1)
 
 class MainLayout(GridLayout):
     def __init__(self, **kwargs):
